@@ -1,0 +1,37 @@
+{
+    "name": "angular-cockpit",
+    "version": "0.1.0",
+    "description": "Angular module for integrating the cockpit CMS",
+    "keywords": [
+        "cockpit",
+        "cms",
+        "angular"
+    ],
+    "author": {
+        "name": "Iterial Sàrl",
+        "email": "info@iterial.ch",
+        "url": "http://iterial.ch/"
+    },
+    "homepage": "http://iterial.ch/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pkokorev/angular-cockpit.git"
+    },
+    "engines": {
+        "npm": ">= 1.0.0"
+    },
+    "dependencies": {
+        "jquery": "2.2.4",
+        "angular": "1.5.8"
+    },
+    "devDependencies": {
+        "grunt-cli": "1.2.0",
+        "grunt": "~1.0.1",
+        "grunt-contrib-clean": "~1.0.0",
+        "grunt-contrib-jshint": "~0.11.0",
+        "grunt-contrib-uglify": "~1.0.2"
+    },
+    "bundleDependencies": [],
+    "private": false,
+    "license": "UNLICENSED"
+}
