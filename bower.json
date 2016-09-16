@@ -1,0 +1,22 @@
+{
+    "name": "angular-cockpit",
+    "description": "Angular module for integrating the cockpit CMS",
+    "main": "",
+    "authors": [
+        "Iterial Sarl"
+    ],
+    "license": "UNLICENSED",
+    "keywords": [
+        "cockpit",
+        "cms",
+        "angular"
+    ],
+    "homepage": "https://github.com/pkokorev/angular-cockpit",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}
