@@ -1,6 +1,6 @@
 {
     "name": "angular-cockpit",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Angular module for integrating the cockpit CMS",
     "keywords": [
         "cockpit",

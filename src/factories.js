@@ -25,7 +25,7 @@
                     });
                     return deferred.promise;
                 },
-                thumbs: function(imgUrls, width, height) {
+                thumbs: function(imgUrls, width, height, mode) {
                     var deferred = q.defer();
                     cp.request('/mediamanager/thumbnails', {
                         images: imgUrls,
@@ -33,7 +33,7 @@
                         h: height,
                         options: {
                             quality: 100,
-                            mode: 'best_fit'
+                            mode: mode || 'crop'
                         }
                     }).success(function(map) {
                         if (ng.isObject(map)) {
